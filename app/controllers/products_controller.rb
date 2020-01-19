@@ -20,7 +20,7 @@ class ProductsController < ApplicationController
     if @product.present?
       render json: @product
     else
-      render status: :not_found
+      render status: :no_content
     end
   end
 
@@ -29,16 +29,17 @@ class ProductsController < ApplicationController
       @product.update_attributes(product_params)
       render json: @product
    else
-      render status: :not_found
+      render status: :no_content
+
     end	
   end
 
   def destroy
     if @product.present?
       @product.destroy
-      render json: @product
+      render status: :ok
     else 
-      render status: :not_found
+      render status: :no_content
     end
   end
 
