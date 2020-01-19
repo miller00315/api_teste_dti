@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Configurações ruby on rails:
 
-Things you may want to cover:
+* Ruby 2.5.7
 
-* Ruby version
+* Rails 5.2.4.1
 
-* System dependencies
+* Sqlite 3
 
-* Configuration
+* Gems ransack, active model serializer
 
-* Database creation
+Configurações do sistema
 
-* Database initialization
+* SO Ubuntu/bionic64
 
-* How to run the test suite
+* Vagrant 2.2.6
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Virtual box 6.1
